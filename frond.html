@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Interest calculator</title>
+        <meta name="viewport" content="width:device-width,initial-scale=1">
+        <script src="newjs.js"></script>
+        <link href="front.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div>
+        <label for="firstdate">Pick Date</label><br>
+        <input type="date" name="pickdate" id="pick" value=""/>
+        <br>
+        <label for="enddate">End Date</label><br>
+        <input type="date" name="enddate" id="end" value=""/>
+        <br>
+        <label for="amount">Amount</label><br>
+        <input type="number" name="amount" id="amt" value="0"/>
+        <br>
+        <label for="rate">Rate in RS</label><br>
+        <input type="text" name="rate" id="rt" value="0"/>
+        <br>
+        <label for="year">Year/Month/Day</label><br>
+        <input type="number" name="year" id="yr"/>
+        <br>
+        <button onclick="calculate()">Calculate</button>
+        <br>
+        <label>Result</label>
+        <p id="out"></p>
+        </div>
+    </body>
+</html>

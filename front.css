@@ -1,0 +1,7 @@
+*{box-sizing: border-box;padding: 10px 20px;}
+body{background-color: rgb(55, 179, 184);border:10px inset green;}
+div{align-items: center;text-align: center;}
+label{text-align: center;}
+#pick{width: 222px;}
+#end{width: 222px;}
+p{border: 1px solid;background-color: white;padding:20px;}
